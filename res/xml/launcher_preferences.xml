@@ -93,6 +93,13 @@
         android:title="@string/drawer_show_labels"
         android:defaultValue="true"
         android:persistent="true" />
+        
+    <SwitchPreferenceCompat
+        android:key="pref_allow_wallpaper_zooming"
+        android:title="@string/allow_wallpaper_zooming"
+        android:summary="@string/allow_wallpaper_zooming_summary"
+        android:defaultValue="true"
+        launcher:iconSpaceReserved="false" />
 
     <SwitchPreferenceCompat
         android:defaultValue="true"
